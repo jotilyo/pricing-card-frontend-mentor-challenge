@@ -17,8 +17,7 @@ h2, h4, p{
 }
 
 #card{
-    width: 600px;
-    height: 400px;
+    
     box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
     border-radius: 5px;
     overflow: hidden;
@@ -39,7 +38,7 @@ h2, h4, p{
 #bottom-left-section{
     display: inline-block;
     vertical-align: top;
-    width: 50%;
+    width: 100%;
     height: 100%;
     background-color: #2ab2af;
     padding: 25px;
@@ -48,11 +47,11 @@ h2, h4, p{
 #bottom-right-section{
     display: inline-block;
     vertical-align: top;
-    width: 50%;
+    width: 100%;
     height: 100%;
     background-color: #2ebfbd;
     padding: 25px;
-    float: right;
+    
 }
 
 #top-section h2{
@@ -117,4 +116,14 @@ button:hover{
 }
 
 
+@media (min-width: 576px){
+    #card{
+        width: 550px;
+        height: 400px;
+    }
+    #bottom-section{
+        display: flex;
+
+    }
+}
 
